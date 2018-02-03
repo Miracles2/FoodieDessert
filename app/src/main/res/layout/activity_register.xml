@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="dessert.foodie.miracles.com.foodiedessert.activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_wrap_content"
+            android:text="用户名:" />
+
+        <EditText
+            android:id="@+id/register_userNaem_edit"
+            style="@style/edit_match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_wrap_content"
+            android:text="密码:" />
+
+        <EditText
+            android:id="@+id/register_password_edit"
+            style="@style/edit_match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_wrap_content"
+            android:text="邮箱:" />
+
+        <EditText
+            android:id="@+id/register_email_edit"
+            style="@style/edit_match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_wrap_content"
+            android:text="手机:" />
+
+        <EditText
+            android:id="@+id/register_phone_edit"
+            style="@style/edit_match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_wrap_content"
+            android:text="年龄:" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/register_age_edit"
+            style="@style/edit_match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_wrap_content"
+            android:text="城市:" />
+
+        <EditText
+            android:id="@+id/register_city_edit"
+            style="@style/edit_match_parent" />
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/register_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/register_male_radio"
+            style="@style/radioButton_wrap_content"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/register_woman_radio"
+            style="@style/radioButton_wrap_content"
+            android:text="女" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/register_comfirm_button"
+        style="@style/button_wrap_content"
+        android:text="注册" />
+
+
+</LinearLayout>
